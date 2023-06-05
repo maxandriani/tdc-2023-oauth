@@ -1,0 +1,26 @@
+{
+  "name": "oauth2-service",
+  "version": "1.0.0",
+  "description": "Simple implementation of OAuth2 Authorization Flow and Device Flow.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsup src/index.ts --format esm,cjs,iife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxandriani/tdc-2023-oauth.git"
+  },
+  "keywords": [
+    "oauth2"
+  ],
+  "author": "max.andriani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxandriani/tdc-2023-oauth/issues"
+  },
+  "homepage": "https://github.com/maxandriani/tdc-2023-oauth#readme",
+  "devDependencies": {
+    "tsup": "^6.7.0"
+  }
+}
